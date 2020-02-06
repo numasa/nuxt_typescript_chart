@@ -1,0 +1,43 @@
+{
+  "name": "nuxt_typescript",
+  "description": "Nuxt.js TypeScript project",
+  "version": "2.10.2",
+  "private": true,
+  "dependencies": {
+    "@nuxt/typescript-runtime": "0.3.2",
+    "@nuxtjs/axios": "5.8.0",
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/pwa": "^3.0.0-beta.19",
+    "@nuxtjs/style-resources": "^0.1.1",
+    "@types/chart.js": "^2.9.5",
+    "bootstrap-vue": "^2.0.0-rc.1",
+    "chart.js": "^2.7.1",
+    "core-js": "2.6.11",
+    "cross-env": "^5.2.0",
+    "firebase": "^7.6.0",
+    "flag-icon-css": "^2.9.0",
+    "font-awesome": "^4.7.0",
+    "nuxt": "2.10.2",
+    "nuxt-property-decorator": "2.5.0",
+    "simple-line-icons": "^2.4.1",
+    "vue-chartjs": "^3.1.1",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "0.5.1",
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.11.0",
+    "sass-loader": "^6.0.6"
+  }
+}
