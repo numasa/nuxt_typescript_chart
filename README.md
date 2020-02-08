@@ -1,7 +1,7 @@
 # Nuxt.js typescript chart sample
 
 ## Description
-Nuxt.js TypeScript vue-chartjs project.</br>
+Nuxt.js TypeScript vue-chartjs project with firebase.</br>
 (simple vote application)</br>
 ![description](static/img/github/application_index.png)
 
@@ -10,10 +10,10 @@ Nuxt.js TypeScript vue-chartjs project.</br>
 * firebase-tools
 
 ## firestore
-make collenction/document/fields on firestore.
+Make collenction/document/fields on firestore.
 ![example](static/img/github/firestore_example.png)
 
-## Put .env
+## Put ".env"
 Write your firebase project variables to ".env".(This variables are used by plugins/firebase.ts)
 ```bash
 FB_API_KEY="XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
